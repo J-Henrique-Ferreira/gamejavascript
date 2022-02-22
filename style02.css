@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family = Chakra + Petch: ital, wght @ 1.700 & display = swap');
+
+@import url('https://fonts.googleapis.com/css2? family = Abrir + Sans + Condensado: wght @ 300 & display = swap');
+
+@import url('https://fonts.googleapis.com/css2? family = Barlow: ital, wght @ 1.100 & family = Abrir + Sans + Condensado: wght @ 300 & display = swap');
+
+:root {
+    --color01: #C4DCE8;
+    --color02: #517EB9;
+    --color03: #C7C7C7;
+    --color04: #F2F2F2;
+    --color05: #012350;
+    --fonteh1:  'Chakra Petch', sans-serif;
+    --fontep: 'Open Sans Condensed', sans-serif;
+    --fonte3: 'Barlow', sans-serif;
+    --fonte4: 'Russo One', sans-serif;
+ }
+
+body {
+     background-color: #517EB9;
+}
+
+section {
+    display: flexbox;
+    background-color: #C4DCE8;
+    text-align: center;
+}
+
+h1 {
+    font-family: var(--fonte3);
+    font-style: italic;
+    font-size: 1.7em;
+    color:var(--color05)
+}
+
+p {
+    font-family: var(--fontep);
+    color: var(--color05);
+}
+
+input {
+    background-color: var(--color03);
+    color: #012350;
+    border-radius: 8px;
+}
+
+.btJogar {
+    display: none;
+}
+
+.exibe {display: inline;}
+
+h3 {
+    text-align: lef;
+    font-family: var(--fonte4);
+    color: var(--color05);
+}
+
+.erros {
+    color: rgb(228, 53, 53);
+}
+
+.chances {
+    color: rgb(15, 218, 15);
+}
