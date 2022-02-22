@@ -23,7 +23,7 @@ if (numero == sorteado) {
     btJogar.className = "exibe";
     outDica.textContent = `Parabêns! Número sorteado: ${sorteado}`;
 } else {
-    if (erros.indexOf(numero) >= 1) {
+    if (erros.indexOf(numero) != -1) {
         alert(`O número ${numero} já foi apostado`);
         inNumero.value = "";
         inNumero.focus()
